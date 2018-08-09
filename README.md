@@ -1,5 +1,5 @@
 # kuberenetes-helm
-This repository lets you install kubernetes on linux/mac and write helm charts
+This repository lets you install kubernetes on ubuntu and write helm charts
 
 Kuberenetes installation on Ubuntu kubeadm:
 
@@ -56,3 +56,7 @@ Master and Slave:
 
 	# by default master nodes is tainted, if you want to let pods get deployed on master
 	$ kubectl taint nodes --all node-role.kubernetes.io/master-	
+
+Helm:
+	once kubeadm installation is sucessful install helm from
+		https://docs.helm.sh/using_helm/#installing-helm
